@@ -10,7 +10,7 @@ const Error404Component = () => {
     <div className='error404-container'>
       <img src={logo} alt='logo-car' />
       <div className='error404-info'>
-        <h2 className='error404-title'>Página no encontrada</h2>
+        <h2 className='error404-title'>404 | Página no encontrada</h2>
         <h3 className='error404-description'>
           No tengas miedo simplemente verifica la URL o vuelve al inicio
         </h3>
