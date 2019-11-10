@@ -1,0 +1,40 @@
+.error404-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #33475b;
+}
+
+.error404-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  text-align: center;
+}
+
+.error404-container img {
+  width: 150px;
+}
+
+.error404-title,
+.error404-description,
+.error404-team {
+  color: white;
+}
+
+/* Cambiar colores de los botons en ant-design */
+.error404-container button {
+  color: white;
+  background-color: #ff9d3e;
+  border-color: #ff9d3e;
+}
+
+.error404-container button:hover {
+  color: white;
+  background-color: #ff850f;
+  border-color: #ff850f;
+}
