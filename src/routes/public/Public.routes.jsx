@@ -1,12 +1,18 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+// * Switch and Route
+import { Switch, Route } from 'react-router-dom';
 
-import Home from '../../components/Home/Home.component';
+// * Components
+import HomeContainer from '../../containers/Home/views/Home.container';
+import Error404 from '../../shared/components/Error404/Error404.component';
 
 const PublicRoutes = () => {
   return (
     // * Return All the Public Components
-    <Route path='/' component={Home} />
+    <Switch>
+      <Route exact path='/' component={HomeContainer} />
+      <Route component={Error404} />
+    </Switch>
   );
 };
 
