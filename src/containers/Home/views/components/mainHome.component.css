@@ -1,0 +1,59 @@
+/* Section 1 */
+.main-home {
+  height: 100vh;
+  width: 100%;
+  background: radial-gradient(
+    circle,
+    rgba(225, 116, 251, 1) 0%,
+    rgba(17, 124, 220, 1) 75%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main-home .main-home-img {
+  margin-top: -70px;
+  width: 350px;
+  border-radius: 2%;
+}
+
+.main-home-info {
+  margin-top: -70px;
+  margin-left: 10px;
+  width: 30%;
+}
+
+.main-home-title,
+.main-home-description {
+  color: white;
+}
+
+.main-home-btns a:last-child {
+  margin: 0 10px;
+}
+
+/* Colores del Button Saber mas */
+.main-home-btns .main-home-btn2 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: white;
+}
+
+.main-home-btns .main-home-btn2:hover {
+  background-color: #ff850f;
+  border-color: #ff850f;
+}
+
+/* Media Queries: */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 630px) {
+  .main-home .main-home-img {
+    width: 80%;
+  }
+  .main-home-info {
+    margin-top: -140px;
+    width: 90%;
+  }
+}
