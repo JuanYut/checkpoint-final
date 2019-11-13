@@ -14,7 +14,11 @@ const NavbarHomeComponent = () => {
       </Link>
 
       <Link to='/login'>
-        <Button icon='user' type='primary'>
+        <Button
+          className='navbarHome-sub2-btn-login'
+          icon='user'
+          type='primary'
+        >
           Iniciar Sesión
         </Button>
       </Link>
@@ -43,7 +47,11 @@ const NavbarHomeComponent = () => {
       </Link>
 
       <Link to='/login'>
-        <Button icon='user' type='primary'>
+        <Button
+          className='navbarHome-sub2-btn-login'
+          icon='user'
+          type='primary'
+        >
           Iniciar Sesión
         </Button>
       </Link>
