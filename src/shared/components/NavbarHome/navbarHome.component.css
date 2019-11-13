@@ -25,6 +25,18 @@
   margin: 0 5px;
 }
 
+/* Colores del Button Login */
+.navbarHome-sub2-btn-login {
+  color: white;
+  background-color: #4caf50;
+  border-color: #4caf50;
+}
+
+.navbarHome-sub2-btn-login:hover {
+  background-color: #388e3c;
+  border-color: #388e3c;
+}
+
 /* Media Queries: */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 630px) {
